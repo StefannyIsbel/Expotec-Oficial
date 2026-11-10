@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+.corpoCompleto{
+    display: flex;
+}
+.div1{
+    min-height: 100vh;
+    background: linear-gradient(135deg, #2860B9, #3479DF);
+    position: relative;
+    overflow: hidden;
+    width: 700px;
+    height: 750px;
+}
+.div1::before {
+    content: "";
+    position: absolute;
+    width: 450px;
+    height: 450px;
+    border: 2px solid rgba(255, 255, 255, 0.08);
+    border-radius: 50%;
+    bottom: -180px;
+    right: -150px;
+    background-color:#2877ed;
+    z-index: 1;
+
+}
+
+.div1::after {
+    content: "";
+    position: absolute;
+    width: 320px;
+    height: 320px;
+    border: 2px solid rgba(255, 255, 255, 0.08);
+    border-radius: 50%;
+    bottom: -120px;
+    right: -90px;
+    background-color:#5f9efb;
+    z-index: 1;
+
+}
+.entre{
+    color:#848484
+}
+.div2{
+    background-color: rgb(254, 254, 255);
+    width: 820px;
+    height: 750px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.campo{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    gap: 8px;
+}
+.campo label{
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+}
+.campo input{
+    width: 100%;
+    height: 48px;
+    padding: 0 15px;
+    box-sizing: border-box;
+    border: 1px solid #e2e2e2;
+    border-radius: 8px;
+    background-color: white;
+    font-size: 15px;
+    outline: none;
+}
+.campo input::placeholder{
+    color: #aaa;
+}
+.Prototipo{
+    background-color: #ba92ffa4;
+    border: 1px solid #380054;
+    width: 500px;
+    height: 80px;
+    border-radius: 8px;
+    padding: 0 15px;
+    margin-top: 15px;
+}
+.aviso{
+    font-size: 15px;
+    color: #380054;
+    align-content: center;
+    justify-content: center;
+    
+    
+}
+.area{
+    color:#5b24bb
+}
+.Entrar{
+    width: 100%;
+    height: 48px;
+    padding: 0 15px;
+    box-sizing: border-box;
+    border: 1px solid #e2e2e2;
+    border-radius: 8px;
+    background-color: #5b24bb;
+    font-size: 15px;
+    outline: none;
+    color:white;
+    margin-bottom: 15px;
+}
+.ideias{
+    font-size: 50px;
+    color:white;
+    
+}
+.informacoes{
+    justify-content: center;
+    align-content: center;
+    color:white;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.icone {
+    width: 38px;
+    height: 38px;
+    border: 2px solid white;
+    border-radius: 11px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.informacoes2 {
+    color: white;
+}
+
+.informacoes2 h3 {
+    margin: 0;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+.informacoes2 p {
+    margin: 2px 0 0;
+    font-size: 8px;
+    letter-spacing: 1px;
+}
+.plataforma{
+    margin-top: 230px;
+    position: relative;
+    z-index: 2;
+}

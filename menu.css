@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+.coordenador {
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    font-family: 'Inter', sans-serif;
+}
+
+/* MENU LATERAL */
+.coordenador .menu {
+    background: linear-gradient(135deg, #2860B9, #3479DF);
+    width: 300px;
+    min-width: 300px;
+    min-height: 100vh;
+    box-sizing: border-box;
+    padding: 30px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+/* LOGO */
+.coordenador .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.coordenador .icone {
+    width: 38px;
+    height: 38px;
+    border: 2px solid white;
+    border-radius: 11px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    flex-shrink: 0;
+}
+
+.coordenador .informacoes2 {
+    color: white;
+}
+
+.coordenador .informacoes2 h3 {
+    margin: 0;
+    font-size: 13px;
+}
+
+.coordenador .informacoes2 p {
+    margin: 2px 0 0;
+    font-size: 8px;
+    letter-spacing: 1px;
+}
+
+/* LINKS */
+.coordenador .div0 {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    padding: 12px 0;
+    flex-direction: row;
+    display: flex;
+    margin-top: 20px;
+}
+.coordenador .div6{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    padding: 12px 0;
+    flex-direction: row;
+    display: flex;
+    margin-top: 20px;
+}
+
+.coordenador .div11 {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    padding-top: 50px;
+    flex-direction: row;
+    display: flex;
+}
+.coordenador .div00{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    padding-top: 30px;
+    flex-direction: row;
+    display: flex;
+    padding-bottom: 10px;
+    line-height: 1.4;
+}
+img{
+    width: 35px;
+    height: 35px;    
+}
+.imgSala{
+    margin-top: 5px ;
+}
+.imgMaterial{
+    width: 30px;
+    height: 30px;
+    margin-top: 5px;
+    margin-left: 3px;
+}
+
+
+/* DIVISÓRIA */
+.coordenador .divisor-menu {
+    border: none;
+    border-top: 1px solid #D1D5DB;
+    width: 100%;
+    margin: auto 0 15px;
+}
+.coordenador .div11 p {
+    margin: 0;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.coordenador .div0 p {
+    margin: 0;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.coordenador .div6 p {
+    margin: 0;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.coordenador .div00 p{
+    margin: 0;
+    margin-left: 15px;
+    
+}
+
+/* SAIR */
+.coordenador .div6 {
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+/* ÁREA PRINCIPAL */
+.coordenador .corpoBranco {
+    background-color: #E9ECEF;
+    flex: 1;
+    min-width: 0;
+    min-height: 100vh;
+}
+
+.coordenador .cabecario {
+    background-color: white;
+    width: 100%;
+    height: 80px;
+    box-sizing: border-box;
+}
